@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Fishing Game</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <canvas id= 'myCanvas'></canvas>
+    <h1>Instructions</h1>
+    <p>
+        <p>Welcome to the best Fishing Game in the world.</p> 
+        <p>To play the game you must catch fish by clicking on them.</p>
+        <p>Each Fish you catch is worth 1 point.</p>
+        <p>Make sure to AVOID rocks, if you click on a rock you lose 3 points.</p>
+        <p>If you click on a bubble you gain 2 points.</p>
+    </p>
+    
+    <hr>
+
+    <p>
+        <h2>Level Menu </h2>
+        <button id='lev-1'> <a href="level-1.html" > Level 1 </a> </button>
+        <button id='lev-2'> <a href="level-2.html" > Level 2 </a> </button>
+        <button id='lev-3'> <a href="level-3.html" > Level 3 </a> </button>
+            <p>
+      <select id="menu">
+        <option value="option1">Fish Legend</option>
+        <option value="option2">All Things Caught</option>
+        <option value="option3">Booster</option>
+        <option value="option4">Make Game Harder</option>
+      </select>
+      <button id='go'>Go</button>
+      <p id='output'></p>
+    <hr>
+    </p>
+
+    <!--Load Javascript-->
+    <script src="functions.js"></script>
+    <script src="intro.js"></script>
+    <script src="mouseClick.js"></script>
+    <script src="menu.js"></script>
+  </body>
+
+</html>
